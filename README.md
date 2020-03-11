@@ -181,6 +181,8 @@ typedef NS_ENUM(NSInteger, KKCategoryListViewCellRegisterType) {
 - (KKCollectionReusableView *_Nullable)categoryListView:(KKCategoryListView *_Nullable)categoryListView viewForSupplementaryElementOfKind:(NSString *_Nullable)kind atIndexPath:(NSIndexPath *_Nullable)indexPath;
 ```
 
+![Alt text](https://github.com/KKWONG1990/KKCategoryListView/blob/master/KKCategoryListView.gif?raw=true)
+
 ## Author
 
 KKWONG1990, kkwong90@163.com
