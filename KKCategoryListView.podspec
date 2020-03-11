@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KKCategoryListView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KKCategoryListView.'
+  s.summary          = 'A Category List View'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A category list view with tableview & collectionview style, you also can custom your cell but you have to KKTableViewCell, KKCollectionViewCell
                        DESC
 
   s.homepage         = 'https://github.com/KKWONG1990/KKCategoryListView'

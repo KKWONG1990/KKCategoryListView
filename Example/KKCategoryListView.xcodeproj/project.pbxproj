@@ -24,6 +24,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AE28832A99A40C6833B3B8CA /* Pods_KKCategoryListView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12B2E009F7266EC24A9EF72 /* Pods_KKCategoryListView_Example.framework */; };
+		C83C420A24189A6B00F9B686 /* KKLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C83C420624189A6B00F9B686 /* KKLeftTableViewCell.m */; };
+		C83C420B24189A6B00F9B686 /* RCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C83C420424189A6B00F9B686 /* RCollectionViewCell.m */; };
+		C83C420C24189A6B00F9B686 /* RCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C83C420824189A6B00F9B686 /* RCollectionReusableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		0D47740361BF0CD0550A18CC /* Pods-KKCategoryListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryListView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKCategoryListView_Tests/Pods-KKCategoryListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12C3E5CD6F887252972BC10E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12C3E5CD6F887252972BC10E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KKCategoryListView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCategoryListView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +62,19 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74C77B638CFE43DD0D219F98 /* KKCategoryListView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKCategoryListView.podspec; path = ../KKCategoryListView.podspec; sourceTree = "<group>"; };
+		74C77B638CFE43DD0D219F98 /* KKCategoryListView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKCategoryListView.podspec; path = ../KKCategoryListView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B10D22262CA05B9F039A0788 /* Pods_KKCategoryListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategoryListView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3863797380D4501644B9884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3863797380D4501644B9884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C12B2E009F7266EC24A9EF72 /* Pods_KKCategoryListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategoryListView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3513A12FF8348E28796015B /* Pods-KKCategoryListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryListView_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKCategoryListView_Example/Pods-KKCategoryListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C36DAADD390CBDEEADAE7298 /* Pods-KKCategoryListView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryListView_Example.release.xcconfig"; path = "Target Support Files/Pods-KKCategoryListView_Example/Pods-KKCategoryListView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C83C420424189A6B00F9B686 /* RCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCollectionViewCell.m; sourceTree = "<group>"; };
+		C83C420524189A6B00F9B686 /* KKLeftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKLeftTableViewCell.h; sourceTree = "<group>"; };
+		C83C420624189A6B00F9B686 /* KKLeftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKLeftTableViewCell.m; sourceTree = "<group>"; };
+		C83C420724189A6B00F9B686 /* RCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCollectionReusableView.h; sourceTree = "<group>"; };
+		C83C420824189A6B00F9B686 /* RCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCollectionReusableView.m; sourceTree = "<group>"; };
+		C83C420924189A6B00F9B686 /* RCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCollectionViewCell.h; sourceTree = "<group>"; };
 		D7A2F43FA61A0E0BE796F674 /* Pods-KKCategoryListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategoryListView_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKCategoryListView_Tests/Pods-KKCategoryListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +146,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KKViewController.h */,
 				6003F5A6195388D20070C39A /* KKViewController.m */,
+				C83C420524189A6B00F9B686 /* KKLeftTableViewCell.h */,
+				C83C420624189A6B00F9B686 /* KKLeftTableViewCell.m */,
+				C83C420724189A6B00F9B686 /* RCollectionReusableView.h */,
+				C83C420824189A6B00F9B686 /* RCollectionReusableView.m */,
+				C83C420924189A6B00F9B686 /* RCollectionViewCell.h */,
+				C83C420424189A6B00F9B686 /* RCollectionViewCell.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +208,6 @@
 				0D47740361BF0CD0550A18CC /* Pods-KKCategoryListView_Tests.debug.xcconfig */,
 				D7A2F43FA61A0E0BE796F674 /* Pods-KKCategoryListView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +222,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4A5CC89DF26CB90A6E19FEDD /* [CP] Embed Pods Frameworks */,
+				96356F1A37C95BEFD65BC796 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,7 +310,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4A5CC89DF26CB90A6E19FEDD /* [CP] Embed Pods Frameworks */ = {
+		96356F1A37C95BEFD65BC796 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83C420C24189A6B00F9B686 /* RCollectionReusableView.m in Sources */,
+				C83C420A24189A6B00F9B686 /* KKLeftTableViewCell.m in Sources */,
+				C83C420B24189A6B00F9B686 /* RCollectionViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -449,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

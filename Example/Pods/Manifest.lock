@@ -1,0 +1,16 @@
+PODS:
+  - KKCategoryListView (0.1.0)
+
+DEPENDENCIES:
+  - KKCategoryListView (from `../`)
+
+EXTERNAL SOURCES:
+  KKCategoryListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKCategoryListView: c2a453c439d644e99a790191391a74500e7475fd
+
+PODFILE CHECKSUM: 61d2ad40bf87349e55f5a57ffb96325eea8a886b
+
+COCOAPODS: 1.8.4
